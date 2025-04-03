@@ -1,5 +1,4 @@
 # gemini api- AIzaSyAPmTdTKNkm-fBoV1MXzb_Qd9SpblSCYo8
-
 # ngrok api - 2uamTR2ecicmjJf83LJeFpluLEO_86rcFVJ4UFGC1H2mjtsnk
 
 import time
