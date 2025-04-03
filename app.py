@@ -1,6 +1,3 @@
-# gemini api- AIzaSyAPmTdTKNkm-fBoV1MXzb_Qd9SpblSCYo8
-# ngrok api - 2uamTR2ecicmjJf83LJeFpluLEO_86rcFVJ4UFGC1H2mjtsnk
-
 import time
 import torch
 from flask import Flask, request, jsonify
@@ -9,11 +6,11 @@ from pyngrok import ngrok
 import google.generativeai as genai
 
 
-API_KEY = "AIzaSyAPmTdTKNkm-fBoV1MXzb_Qd9SpblSCYo8"
+API_KEY = "AIzaSyAPmTdTKNkm-fBoV1xxxxxxxxxxxxxxx"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-NGROK_AUTH_TOKEN = "2uamTR2ecicmjJf83LJeFpluLEO_86rcFVJ4UFGC1H2mjtsnk"
+NGROK_AUTH_TOKEN = "2uamTR2ecicmjJf83LJeFpluLEO_xxxxxxxxxxxxxxxxxxxxxxx"
 ngrok.set_auth_token(NGROK_AUTH_TOKEN)
 
 def restart_ngrok():
